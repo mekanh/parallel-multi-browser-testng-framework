@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="WebOrders Automation Regression Tests" verbose="2"
-parallel="tests">
+parallel="methods" thread-count="2">
 
 	<test name="Chrome tests">
 		<parameter name="browser" value="chrome"></parameter>
